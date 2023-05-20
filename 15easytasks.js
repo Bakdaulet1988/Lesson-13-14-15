@@ -28,10 +28,7 @@ console.log(message)
 
 let x = 10
 let y = 5
-console.log(x + y)
 console.log(x - y)
-console.log(x * y)
-console.log(x / y)
 
 var firstName = "Bakdaulet", lastName = "Seidazymov"
 console.log("Name: "+firstName + ", surname: "+lastName)
@@ -45,19 +42,14 @@ var name1 = "Bakdaulet"
 console.log(greeting, name1)
 
 let radius = 5
-console.log(pi*(radius*2))
+console.log(pi*radius*radius)
 
 let num1 = 10
 let num2 = 3
-console.log(num1 + num2)
-console.log(num1 - num2)
-console.log(num1 * num2)
 console.log(num1 / num2)
 
 let num3 = 7
 let num4 = 2
-console.log(num3 + num4)
-console.log(num3 - num4)
-console.log(num3 * num4)
-console.log(num3 / num4)
+console.log(num3 % num4)
+
 

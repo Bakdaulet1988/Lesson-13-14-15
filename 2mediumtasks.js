@@ -1,16 +1,16 @@
 //1Task
 
 let celsia = 20
-let fahrengeit = 3.4
-let kelvin = 14.6575
-console.log(celsia*fahrengeit)
-console.log(celsia*kelvin)
+const fahrengeit = celsia *(9/5) + 32
+const kelvin = celsia + 273.15
+console.log(fahrengeit)
+console.log(kelvin)
 
-let celsia1 = 24
-let fahrengeit1 = 3.13
-let kelvin1 = 12.38
-console.log(celsia1*fahrengeit1)
-console.log(celsia1*kelvin1)
+let Celsia = 24
+const Fahrengeit = Celsia *(9/5) + 32
+const Kelvin = Celsia + 273.15
+console.log(Fahrengeit)
+console.log(Kelvin)
 
 //2Task
 
